@@ -54,7 +54,7 @@ app.get("/lego/sets/:set_num", async (req, res) => {
   }
 });
 
-// ✅ New route for testing addSet
+// New route for testing addSet
 app.get("/lego/add-test", (req, res) => {
   const testSet = {
     set_num: "123",
